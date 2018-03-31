@@ -10,8 +10,4 @@ public class CommonRequestController {
     public String indexMethod() {
         return "index";
     }
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-    public String loginMethod() {
-        return "index";
-    }
 }
